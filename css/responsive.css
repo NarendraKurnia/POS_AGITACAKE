@@ -1,0 +1,241 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        flex-direction: row;
+    }
+    .card-login {
+        width: 480px;
+        margin-left: -20px;
+    }
+
+    .form {
+        margin-left: 20px;
+    }
+    .sign-in {
+        width: -80%; 
+    }
+    .regis-title {
+        text-align: center;
+        font-size: 1em;
+    }
+    .custom-card {
+        width: 280px !important; 
+        height: 140px !important; 
+        margin-left: 30px !important; 
+    }
+
+    .custom-card.card-2 {
+        margin-left: 30px !important;
+    }
+
+    .custom-card.card-3 {
+        margin-left: 30px !important;
+    }
+
+    .icon-custom {
+        font-size: 2.8rem !important; /* Ukuran ikon sedikit lebih kecil */
+    }
+
+}
+
+/* For screens between 768px and 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .login-title {
+        font-size: 1.5rem;
+    }
+    .card-login {
+        width: 750px !important;
+        margin-left: -160px;
+    }
+    .nav-link {
+        text-align: center;
+        border-bottom: 0.5px solid blue;
+    }
+    .nav-link::after {
+        display: none
+    }
+
+    .form {
+        margin-top: 5px;
+        justify-content: center;
+    }
+    .sign-in {
+        width: -80px;
+    }
+    .regis-title {
+        text-align: center;
+        font-size: 1em;
+    }
+    .login-box {
+        margin-bottom: 30px;
+    }
+    .custom-card {
+        width: 240px; /* Lebar lebih kecil */
+        height: 130px; /* Tinggi lebih kecil */
+        margin-left: 10px; /* Margin kiri lebih kecil */
+        margin-top: 50px;
+    }
+
+    .custom-card.card-2 {
+        margin-left: 30px;
+    }
+
+    .custom-card.card-3 {
+        margin-left: 50px;
+    }
+    .custom-card.card-4 {
+        margin-left: 0px;
+    }
+    .custom-card.card-5 {
+        margin-left: 30px;
+    }
+    .custom-card.card-6 {
+        margin-left: 50px;
+    }
+
+    .icon-custom {
+        font-size: 2.5rem; /* Ukuran ikon lebih kecil */
+    }
+     .card-payment-1, .card-payment-2 {
+        grid-template-columns: repeat(3, 1fr); /* 3 kolom pada layar medium */
+    }
+
+
+/* For screens 767px and below */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .card-login{
+        width: 400px;
+    }
+
+    .login-title {
+        font-size: 1.2rem;
+    }
+     .nav-link {
+        text-align: center;
+        border-bottom: 0.5px solid blue;
+    }
+    .nav-link::after {
+        display: none
+    }
+    .navbar-brand-navbar1 {
+        font-size: 20px;
+    }
+
+
+    .form {
+        margin-left: 0; /* Center-align for small screens */
+        margin-top: 15px;
+    }
+    .remember {
+        margin-left: 10px !important;
+    }
+    .sign-in {
+        margin-left: 10px;
+    }
+    .regis {
+        font-size: 1em !important;
+    }
+    .syarat {
+        margin-left: 10px;
+    }
+    .row {
+        flex-direction: column; /* Tata letak berjajar ke bawah */
+        display: flex; /* Aktifkan flexbox untuk tata letak */
+    }
+    .custom-card {
+       margin-right: 100px;
+       text-align: center;
+    }
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .toggle2 {
+        margin-right: 0; /* Hilangkan margin kanan agar toggle tetap di tengah */
+    }
+    .navbar-brand {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #navbar-toggler1, #navbar-toggler2 {
+        display: none;
+    }
+    .toggle2 {
+        position: relative;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        transition-duration: .5s;
+        margin-right: 30px;
+    }
+    .bars {
+        width: 100%;
+        height: 6px;
+        background-color: #0077B6;
+        border-radius: 6px;
+    }
+    #bar5 {
+        transition-duration: .8s;
+    }
+    #bar4, #bar6 {
+        width: 80%;
+    }
+    #navbar-toggler1:checked + .toggle2 .bars,
+    #navbar-toggler2:checked + .toggle2 .bars {
+        position: absolute;
+        transition-duration: .5s;
+    }
+    #navbar-toggler1:checked + .toggle2 #bar5,
+    #navbar-toggler2:checked + .toggle2 #bar5 {
+        transform: scaleX(0);
+        transition-duration: .5s;
+    }
+    #navbar-toggler1:checked + .toggle2 #bar4,
+    #navbar-toggler2:checked + .toggle2 #bar4 {
+        width: 100%;
+        transform: rotate(45deg);
+        transition-duration: .5s;
+        height: 4px;
+    }
+    #navbar-toggler1:checked + .toggle2 #bar6,
+    #navbar-toggler2:checked + .toggle2 #bar6 {
+        width: 100%;
+        transform: rotate(-45deg);
+        transition-duration: .5s;
+        height: 4px;
+    }
+    #navbar-toggler1:checked + .toggle2,
+    #navbar-toggler2:checked + .toggle2 {
+        transition-duration: .5s;
+        transform: rotate(180deg);
+    }
+    .container-fluid {
+        padding-right: 0;
+    }
+    .card-payment-1, .card-payment-2 {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar kecil */
+    }
+    .custom-card-2 {
+       margin-right: 100px;
+       text-align: center;
+       margin-left: 20px;
+    }
+}
