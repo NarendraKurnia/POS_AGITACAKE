@@ -661,3 +661,8 @@ nav-link {
 .table-row {
             cursor: pointer;
         }
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Jarak antara ikon */
+}

@@ -92,9 +92,7 @@ height: 80vh;
         <div class="form-check mt-4 col-md-3 ">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
             <label class="form-check-label" for="flexRadioDefault1">
-                <img src="images/logo-dana.png" style="width:140px; margin-bottom:10px; margin-top:15px;"alt="">
-                  <h5>BNI 1675478</h5>
-        		  <h5>a.n Agita Cakes</h5>
+                <img src="images/logo-cash.png" style="width:150px; margin-bottom:10px; margin-top:20px;"alt="">
             </label>
         </div>
         <div class="form-check mt-4 col-md-3 ">
@@ -109,9 +107,32 @@ height: 80vh;
 	</div>
  <div class="container-payment w-100 bg-primary">
     	<h1>Total Harga : Rp100.000</h1>
-    	<button class="btn btn-succes" onclick="window.location.href='ringkasanpesanan.php'">Selesaikan Pesanan</button>
+    	<button class="btn btn-succes" data-bs-toggle="modal" data-bs-target="#editModal">Selesaikan Pesanan</button>
     </div>
-
+<!-- Modal -->
+          <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="takeAwayModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="takeAwayModalLabel">Nominal Uang</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Masukkan nominal uang pembayaran :</label>
+                                <input type="text" class="form-control" id="name" placeholder="Rp0">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='ringkasanpesanan.php'">Lanjutkan Pembayaran</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->
 	
 	
 </main>

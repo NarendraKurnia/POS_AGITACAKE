@@ -33,20 +33,28 @@ height: 80vh;
 	<hr>
 	 <div class="mt-5 mb-4 card-booked">
             <p class="fw-bold">Menu yang Anda pesan:</p>
-            <p class="ms-4 fw-bold">Strawbery crunch chiz Rp.13.500</p>
+            <p class="ms-4 fw-bold">Strawbery crunch chiz Rp13.500</p>
             <p class="text-muted ms-4"><small>*Total Harga sudah termasuk PPN.</small></p>
             <hr>
             <div class="d-flex justify-content-between">
                 <p class="fw-bold">Total Belanjaan:</p>
-                <p class="fw-bold">Rp.13.500</p>
+                <p class="fw-bold">Rp13.500</p>
             </div>
             <div class="d-flex justify-content-between">
                 <p class="fw-bold">Potongan Voucher:</p>
-                <p class="fw-bold">Rp.0</p>
+                <p class="fw-bold">Rp0</p>
             </div>
             <div class="d-flex justify-content-between">
                 <p class="fw-bold">Total:</p>
-                <p class="fw-bold">Rp.13.500</p>
+                <p class="fw-bold">Rp13.500</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bold">Nominal uang pembayaran</p>
+                <p class="fw-bold">Rp13.500</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bold">Kembalian</p>
+                <p class="fw-bold">Rp0</p>
             </div>
             <div class="d-flex justify-content-between">
                 <p class="fw-bold">Metode Pembayaran :

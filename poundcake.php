@@ -118,6 +118,18 @@ height: 100vh;
                       <p class="card-title">Kategori : Pound cake</p>
                       <p class="card-text"><strong>Rp200.000</strong></p>
                     </div>
+                    <div class="d-flex align-items-center" style="margin-left: 10px;">
+                    <div class="my-1 card-diskonedit" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-pencil-fill"></i>
+                        </button>
+                    </div>
+                    <div class="my-1 card-diskondelete ms-2">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-trash3-fill"></i>
+                        </button>
+                    </div>
+                </div>
                   </div>
              </div>
             <!-- end produk -->
@@ -130,6 +142,18 @@ height: 100vh;
                       <p class="card-title">Kategori : Pound cake</p>
                       <p class="card-text"><strong>Rp200.000</strong></p>
                     </div>
+                    <div class="d-flex align-items-center" style="margin-left: 10px;">
+                    <div class="my-1 card-diskonedit" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-pencil-fill"></i>
+                        </button>
+                    </div>
+                    <div class="my-1 card-diskondelete ms-2">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-trash3-fill"></i>
+                        </button>
+                    </div>
+                </div>
                   </div>
              </div>
             <!-- end produk -->
@@ -142,6 +166,18 @@ height: 100vh;
                       <p class="card-title">Kategori : Pound cake</p>
                       <p class="card-text"><strong>Rp200.000</strong></p>
                     </div>
+                    <div class="d-flex align-items-center" style="margin-left: 10px;">
+                    <div class="my-1 card-diskonedit" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-pencil-fill"></i>
+                        </button>
+                    </div>
+                    <div class="my-1 card-diskondelete ms-2">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-trash3-fill"></i>
+                        </button>
+                    </div>
+                </div>
                   </div>
              </div>
             <!-- end produk -->
@@ -154,6 +190,18 @@ height: 100vh;
                       <p class="card-title">Kategori : Pound cake</p>
                       <p class="card-text"><strong>Rp200.000</strong></p>
                     </div>
+                    <div class="d-flex align-items-center" style="margin-left: 10px;">
+                    <div class="my-1 card-diskonedit" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-pencil-fill"></i>
+                        </button>
+                    </div>
+                    <div class="my-1 card-diskondelete ms-2">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-trash3-fill"></i>
+                        </button>
+                    </div>
+                </div>
                   </div>
              </div>
             <!-- end produk -->
@@ -166,6 +214,18 @@ height: 100vh;
                       <p class="card-title">Kategori : Pound cake</p>
                       <p class="card-text"><strong>Rp200.000</strong></p>
                     </div>
+                    <div class="d-flex align-items-center" style="margin-left: 10px;">
+                    <div class="my-1 card-diskonedit" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-pencil-fill"></i>
+                        </button>
+                    </div>
+                    <div class="my-1 card-diskondelete ms-2">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-trash3-fill"></i>
+                        </button>
+                    </div>
+                </div>
                   </div>
              </div>
             <!-- end produk -->
@@ -178,9 +238,57 @@ height: 100vh;
                       <p class="card-title">Kategori : Pound cake</p>
                       <p class="card-text"><strong>Rp200.000</strong></p>
                     </div>
+                    <div class="d-flex align-items-center" style="margin-left: 10px;">
+                    <div class="my-1 card-diskonedit" data-bs-toggle="modal" data-bs-target="#editModal">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-pencil-fill"></i>
+                        </button>
+                    </div>
+                    <div class="my-1 card-diskondelete ms-2">
+                        <button type="submit" class="btn btn-primary shadow-none">
+                            <i class="bi bi-trash3-fill"></i>
+                        </button>
+                    </div>
+                </div>
                   </div>
              </div>
             <!-- end produk -->
+            <!-- Modal -->
+          <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="takeAwayModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="takeAwayModalLabel">Edit Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nama:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nama produk:">
+                            </div>
+                            <div class="mb-3">
+                                <label for="categorie" class="form-label">Kategori</label>
+                                <input type="text" class="form-control" id="kategori" placeholder="Kategori">
+                            </div>
+                            <div class="mb-3">
+                                <label for="harga" class="form-label">Harga</label>
+                                <input type="text" class="form-control" id="harga" placeholder="Harga">
+                            </div>
+                            <div class="mb-3">
+                                <label for="harga" class="form-label">Upload Foto Produk</label>
+                                <input type="file" class="form-control" id="gambar" placeholder="Upload Foto Produk">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='payment.php'">Tambah produk</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->
 
          </div>
 </div>
